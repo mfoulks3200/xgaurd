@@ -1,7 +1,9 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "@xgaurd/backend",
   "version": "0.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "private": true,
+  "author": "Atlas Foulks <mfoulks1@gmail.com>",
   "type": "module",
   "engines": {
     "node": ">= 20.9 < 21"

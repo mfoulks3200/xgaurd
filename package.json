@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:fe": "cd frontend && npm run watch"
+    "watch:fe": "npm run dev -w frontend"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mfoulks3200/xgaurd/issues"
   },
-  "homepage": "https://github.com/mfoulks3200/xgaurd#readme"
+  "homepage": "https://github.com/mfoulks3200/xgaurd#readme",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
 }

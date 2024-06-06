@@ -8,11 +8,12 @@ const Footer = () => {
       align="center"
       alignSelf="flex-end"
       justifyContent="center"
+      marginBottom={8}
     >
       <Text fontSize="xs">
         {new Date().getFullYear()} -{' '}
-        <Link href="https://sznm.dev" isExternal>
-          sznm.dev
+        <Link href="https://github.com/mfoulks3200/xguard" isExternal>
+          X Guard
         </Link>
       </Text>
     </Flex>
