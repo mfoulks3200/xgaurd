@@ -1,0 +1,20 @@
+{
+  "name": "xgaurd",
+  "version": "1.0.0",
+  "description": "Crossing Guard: A configurable web access proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:fe": "cd frontend && npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfoulks3200/xgaurd.git"
+  },
+  "author": "Atlas Foulks <mfoulks1@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mfoulks3200/xgaurd/issues"
+  },
+  "homepage": "https://github.com/mfoulks3200/xgaurd#readme"
+}
